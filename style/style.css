@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid red;
+  z-index: 2;
+  position: fixed;
+}
+nav img {
+  margin-left: 50%;
+  width: 130px;
+}
+nav ul {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 62%;
+}
+nav ul li {
+  white-space: nowrap;
+  margin-left: 38px;
+}
+nav ul li a {
+  font-size: 13px;
+  font-family: "Josefin Sans", sans-serif;
+}
+nav ul li:first-child {
+  margin-left: 0;
+}
+nav ul li :hover {
+  color: rgb(211, 210, 210);
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+nav a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

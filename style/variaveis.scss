@@ -1,0 +1,16 @@
+@mixin felxCenter($direction, $align, $content){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
+@mixin heigWid($h, $w){
+    height: $h;
+    width: $w;
+}
+
+@mixin fontTitles($size){
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: $size;
+}
