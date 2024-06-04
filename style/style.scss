@@ -10,7 +10,7 @@
 body{
     @include heigWid(100vh, 100%);
 }
-
+//--------MENU--------
 nav{
     @include felxCenter(row, center, baseline);
     @include heigWid(100px, 100%);
@@ -47,4 +47,10 @@ nav{
     a{
         color: white;
     }
+}
+
+//--------HEADER--------
+header{
+    background-image: url("../assets/pexels-timesaverhacks-2724749\ 1.png");
+    @include heigWid(100vh, 100%);
 }
