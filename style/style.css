@@ -193,7 +193,8 @@ header .header-content .btns-header button:last-child a {
   width: 60%;
   position: relative;
   overflow: hidden;
-  border: 1px solid red;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 .nos-escolher .carousel-container .carousel {
   display: flex;
@@ -205,16 +206,101 @@ header .header-content .btns-header button:last-child a {
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nos-escolher .carousel-container .carousel-item .icon {
+  border: 3px solid #F0C7C2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+.nos-escolher .carousel-container .carousel-item h3 {
+  color: #F0C7C2;
+  font-size: 32px;
+  width: 50%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+.nos-escolher .carousel-container .carousel-item p {
+  font-size: 18px;
+  width: 70%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
 }
 .nos-escolher .carousel-container .prev, .nos-escolher .carousel-container .next {
   top: 50%;
   position: absolute;
   transform: translateY(-50%);
   cursor: pointer;
+  border: 3px solid #F0C7C2;
+  background-color: transparent;
+  color: #F0C7C2;
+  height: 30px;
+  width: 30px;
+  font-weight: 900;
+  border-radius: 50%;
+}
+.nos-escolher .carousel-container .prev:hover, .nos-escolher .carousel-container .next:hover {
+  transform: scale(1);
+  transition: 0.5s;
 }
 .nos-escolher .carousel-container .prev {
   left: 5%;
 }
 .nos-escolher .carousel-container .next {
   right: 5%;
+}
+
+.container-projetos {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+.container-projetos .interactive-div {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  transition: flex 0.5s ease;
+  position: relative;
+  cursor: pointer;
+}
+.container-projetos .interactive-div .content {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container-projetos .interactive-div img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+}
+.container-projetos .interactive-div h3 {
+  color: #F0C7C2;
+  font-size: 36px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+}
+.container-projetos .interactive-div:hover {
+  flex: 6;
+}
+.container-projetos .interactive-div:not(:hover) {
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */
