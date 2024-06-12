@@ -1,4 +1,4 @@
-@mixin felxCenter($direction, $align, $content){
+@mixin flexCenter($direction, $align, $content){
     display: flex;
     flex-direction: $direction;
     justify-content: $content;
@@ -13,4 +13,11 @@
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: $size;
+}
+
+@mixin textEdit($color, $size, $wight){
+    color: $color;
+    font-size: $size;
+    font-weight: $wight;
+    font-family: "Josefin Sans", sans-serif;
 }

@@ -27,19 +27,21 @@ nav img {
   width: 130px;
 }
 nav ul {
-  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 62%;
+  width: 30%;
+  margin-left: 60%;
 }
 nav ul li {
   white-space: nowrap;
   margin-left: 38px;
 }
 nav ul li a {
+  color: white;
   font-size: 13px;
+  font-weight: 600;
   font-family: "Josefin Sans", sans-serif;
 }
 nav ul li:first-child {
@@ -78,11 +80,13 @@ header .header-content {
   font-family: "Josefin Sans", sans-serif;
 }
 header .header-content h1 {
-  margin-top: 10%;
+  color: white;
   font-size: 80px;
-  width: 50vw;
-  margin-left: 92%;
   font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
+  width: 50vw;
+  margin-top: 10%;
+  margin-left: 92%;
   margin-bottom: 2%;
 }
 header .header-content p {
@@ -92,16 +96,18 @@ header .header-content p {
 }
 header .header-content .btns-header {
   margin-top: 25%;
-  width: 70%;
   margin-left: 26%;
+  width: 70%;
 }
 header .header-content .btns-header button {
-  width: 250px;
-  height: 70px;
+  height: 220%;
+  width: 40%;
+  color: #3C3C3C;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
   border: none;
   background-color: #F0C7C2;
-  font-size: 24px;
-  font-weight: bold;
   margin-left: 2%;
 }
 header .header-content .btns-header button a {
@@ -128,8 +134,8 @@ header .header-content .btns-header button:last-child a {
 .sobre-nos h2 {
   color: white;
   font-size: 56px;
-  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
   margin-bottom: 2%;
 }
 .sobre-nos h2 span {
@@ -143,15 +149,15 @@ header .header-content .btns-header button:last-child a {
   height: 60%;
   width: 70%;
   color: white;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
 }
 .sobre-nos .sobre-nos-content .sobre-text {
   width: 60%;
 }
 .sobre-nos .sobre-nos-content .sobre-text p {
-  margin-right: 6%;
-  margin-top: 2.5%;
+  margin: 2.5%, 6%, 0, 0;
 }
 
 .nos-escolher {
@@ -182,8 +188,8 @@ header .header-content .btns-header button:last-child a {
 .nos-escolher .nos-escolher-content h2 {
   color: white;
   font-size: 64px;
-  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
   margin-bottom: 2%;
 }
 .nos-escolher .nos-escolher-content h2 span {
@@ -193,8 +199,7 @@ header .header-content .btns-header button:last-child a {
   width: 60%;
   position: relative;
   overflow: hidden;
-  margin-right: 5%;
-  margin-top: 5%;
+  margin: 5%, 5%, 0, 0;
 }
 .nos-escolher .carousel-container .carousel {
   display: flex;
@@ -246,9 +251,11 @@ header .header-content .btns-header button:last-child a {
   border: 3px solid #F0C7C2;
   background-color: transparent;
   color: #F0C7C2;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Josefin Sans", sans-serif;
   height: 30px;
   width: 30px;
-  font-weight: 900;
   border-radius: 50%;
 }
 .nos-escolher .carousel-container .prev:hover, .nos-escolher .carousel-container .next:hover {
@@ -264,8 +271,8 @@ header .header-content .btns-header button:last-child a {
 
 .container-projetos {
   display: flex;
-  width: 100%;
   height: 80vh;
+  width: 100%;
   overflow: hidden;
 }
 .container-projetos .interactive-div {
@@ -288,15 +295,15 @@ header .header-content .btns-header button:last-child a {
   align-items: center;
 }
 .container-projetos .interactive-div img {
-  width: 100px;
   height: 100px;
+  width: 100px;
   opacity: 0.5;
 }
 .container-projetos .interactive-div h3 {
   color: #F0C7C2;
   font-size: 36px;
-  font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
 }
 .container-projetos .interactive-div:hover {
   flex: 6;
@@ -334,9 +341,10 @@ header .header-content .btns-header button:last-child a {
 .contato .form h2 {
   color: white;
   font-size: 42px;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
   padding-top: 10%;
   margin-bottom: 2%;
-  font-weight: 500;
 }
 .contato .form h2 span {
   color: #F0C7C2;
@@ -356,8 +364,8 @@ header .header-content .btns-header button:last-child a {
 .contato .form input, .contato .form textarea {
   background-color: black;
   border: 1px solid white;
-  width: 60%;
   height: 45px;
+  width: 60%;
   margin-bottom: 3%;
 }
 .contato .form input p, .contato .form textarea p {
@@ -367,13 +375,14 @@ header .header-content .btns-header button:last-child a {
   height: 20vh;
 }
 .contato .form button {
-  width: 60%;
   height: 45px;
+  width: 60%;
   border: 3px solid #F0C7C2;
   background-color: transparent;
-  font-size: 18px;
-  font-weight: bold;
   color: #F0C7C2;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 footer {
@@ -387,5 +396,60 @@ footer {
 footer p {
   color: white;
   font-size: 12px;
+  font-weight: 500;
   font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 866px) {
+  nav img {
+    margin-left: 20px;
+  }
+  nav .menu-icon {
+    display: flex;
+    margin-left: 70%;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  nav ul {
+    display: none;
+  }
+  header .header-content h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 866px) {
+  nav .menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 1600px) {
+  nav ul {
+    margin-left: 55%;
+  }
+}
+@media (max-width: 1440px) {
+  nav ul {
+    margin-left: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  nav ul {
+    margin-left: 45%;
+  }
+}
+@media (max-width: 1024px) {
+  nav ul {
+    margin-left: 40%;
+  }
+  header .header-content h1 {
+    font-size: 70px;
+  }
+  header .header-content p {
+    font-size: 20px;
+  }
+  header .btns-header {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
