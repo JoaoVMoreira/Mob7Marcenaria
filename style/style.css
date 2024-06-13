@@ -418,6 +418,96 @@ footer p {
   header .header-content h1 {
     font-size: 40px;
   }
+  .sobre-nos h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content {
+    height: 90%;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text {
+    width: 100%;
+    text-align: center;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text p {
+    margin: 2.5% 0;
+  }
+  .sobre-nos .sobre-nos-content img {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .nos-escolher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nos-escolher .video-nos-escolher {
+    width: 90%;
+  }
+  .nos-escolher .video-nos-escolher img {
+    width: 100%;
+    margin: 0;
+  }
+  .nos-escolher .nos-escolher-content {
+    width: 100%;
+    margin: 0;
+  }
+  .nos-escolher .nos-escolher-content h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .nos-escolher .carousel-container {
+    width: 100%;
+  }
+  .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato .map {
+    height: 80%;
+    width: 45%;
+  }
+  .contato .form {
+    width: 100%;
+  }
+  .contato .form h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .contato .form .same-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato .form .same-line input {
+    width: 95%;
+    margin-bottom: 3%;
+  }
+  .contato .form .same-line input:last-child {
+    margin-left: 0;
+  }
+  .contato .form input, .contato .form textarea, .contato .form button {
+    height: 45px;
+    width: 95%;
+  }
+  .contato .form textarea {
+    height: 15vh;
+  }
 }
 @media (min-width: 866px) {
   nav .menu-icon {
@@ -428,15 +518,82 @@ footer p {
   nav ul {
     margin-left: 55%;
   }
+  .nos-escolher .video-nos-escolher img {
+    width: 600px;
+  }
+  .contato .form input, .contato .form textarea, .contato .form button {
+    height: 45px;
+    width: 70%;
+  }
 }
 @media (max-width: 1440px) {
   nav ul {
     margin-left: 50%;
   }
+  .nos-escolher .video-nos-escolher img {
+    width: 550px;
+  }
+  .contato .form input, .contato .form textarea, .contato .form button {
+    height: 45px;
+    width: 75%;
+  }
 }
 @media (max-width: 1200px) {
   nav ul {
     margin-left: 45%;
+  }
+  .sobre-nos h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content {
+    height: 70%;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text {
+    width: 70%;
+  }
+  .sobre-nos .sobre-nos-content img {
+    width: 30%;
+  }
+  .nos-escolher .video-nos-escolher img {
+    width: 500px;
+  }
+  .contato .form input, .contato .form textarea, .contato .form button {
+    height: 45px;
+    width: 80%;
+  }
+}
+@media (max-width: 1330px) {
+  .sobre-nos .sobre-nos-content {
+    height: 70%;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text {
+    width: 70%;
+    font-size: 19px;
+  }
+  .sobre-nos .sobre-nos-content img {
+    width: 30%;
+  }
+  .nos-escolher .nos-escolher-content {
+    margin: 0;
+  }
+  .nos-escolher .nos-escolher-content h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
   }
 }
 @media (max-width: 1024px) {
@@ -451,5 +608,187 @@ footer p {
   }
   header .btns-header {
     display: none;
+  }
+  .sobre-nos h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text {
+    width: 90%;
+    text-align: center;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text p {
+    font-size: 16px;
+    margin: 2.5% 0;
+  }
+  .sobre-nos .sobre-nos-content img {
+    width: 30%;
+  }
+  .nos-escolher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nos-escolher .video-nos-escolher {
+    display: none;
+  }
+  .nos-escolher .nos-escolher-content {
+    width: 90%;
+    margin: 0;
+  }
+  .nos-escolher .nos-escolher-content h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .nos-escolher .carousel-container {
+    width: 100%;
+  }
+  .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato .map {
+    height: 80%;
+    width: 45%;
+  }
+  .contato .form {
+    width: 90%;
+  }
+  .contato .form h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .contato .form .same-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato .form .same-line input {
+    width: 90%;
+    margin-bottom: 3%;
+  }
+  .contato .form .same-line input:last-child {
+    margin-left: 0;
+  }
+  .contato .form input, .contato .form textarea, .contato .form button {
+    height: 45px;
+    width: 90%;
+  }
+  .contato .form textarea {
+    height: 15vh;
+  }
+}
+@media (max-width: 480px) {
+  .sobre-nos h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text {
+    width: 100%;
+    text-align: center;
+  }
+  .sobre-nos .sobre-nos-content .sobre-text p {
+    margin: 2.5% 0;
+  }
+  .sobre-nos .sobre-nos-content img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .nos-escolher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nos-escolher .video-nos-escolher {
+    width: 100%;
+  }
+  .nos-escolher .video-nos-escolher img {
+    width: 100%;
+    margin: 0;
+  }
+  .nos-escolher .nos-escolher-content {
+    width: 100%;
+    margin: 0;
+  }
+  .nos-escolher .nos-escolher-content h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .nos-escolher .carousel-container {
+    width: 100%;
+  }
+  .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato .map {
+    height: 100%;
+    width: 40%;
+  }
+  .contato .form {
+    width: 100%;
+  }
+  .contato .form h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .contato .form .same-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contato .form .same-line input {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .contato .form .same-line input:last-child {
+    margin-left: 0;
+  }
+  .contato .form input, .contato .form textarea, .contato .form button {
+    height: 45px;
+    width: 100%;
+  }
+  .contato .form textarea {
+    height: 15vh;
   }
 }/*# sourceMappingURL=style.css.map */
